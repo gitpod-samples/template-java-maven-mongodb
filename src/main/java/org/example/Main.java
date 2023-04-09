@@ -20,9 +20,10 @@ public class Main {
             MongoClient mongoClient = MongoClients.create(connectionString);
 
             // Get database
-            // ...
-            System.out.println("A connection was successfully established with the Database ");
-            System.out.println("username = admin, password = password");
+            System.out.println("\u001B[32m A connection was successfully established with the Database \u001B[0m");
+            System.out.println("\u001B[32m username = admin, password = password \u001B[0m");
+            System.out.println("\u001B[32m For compilition command is: 'mvn compile' \u001B[0m");
+            System.out.println("\u001B[32m For executing a Java class: 'mvn exec:java -Dexec.mainClass=\"org.example.Main\"'\u001B[0m");
             // Close the client
             mongoClient.close();
 
