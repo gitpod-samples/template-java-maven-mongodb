@@ -2,13 +2,6 @@ package org.example;
 
 import com.mongodb.*;
 import com.mongodb.client.*;
-import com.mongodb.client.internal.MongoClientImpl;
-import com.mongodb.connection.ClusterDescription;
-import org.bson.Document;
-import org.bson.conversions.Bson;
-
-import java.util.Arrays;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,7 +18,7 @@ public class Main {
             System.out.println("\u001B[32m For compilition command is: 'mvn compile' \u001B[0m");
             System.out.println("\u001B[32m For executing a Java class: 'mvn exec:java -Dexec.mainClass=\"org.example.Main\"'\u001B[0m");
             // Close the client
-            mongoClient.close();
+            // mongoClient.close();
 
         } catch (MongoException e) {
             // Display custom error message for MongoDB connection error
@@ -33,11 +26,5 @@ public class Main {
             // Log the exception
             e.printStackTrace();
         }
-
-
-
-
-
-
     }
 }
