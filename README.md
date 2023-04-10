@@ -1,4 +1,4 @@
-# A Java project with Mavel and MongoDB starter template on Gitpod
+# A Java project with Maven and MongoDB starter template on Gitpod
 
 This is a [Maven](https://maven.apache.org/guides) template to build a Java project with Maven configured for ephemeral cloud development environments on [Gitpod](https://www.gitpod.io/).
 
@@ -6,7 +6,7 @@ This is a [Maven](https://maven.apache.org/guides) template to build a Java proj
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/shashankpatil125/Template-Java-Maven-mongodb.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-samples/template-java-maven-mongodb)
 
 The [`.gitpod.yml`](./.gitpod.yml) file, which configures the environment, is automatically followed after hitting the Gitpod button. The following processes happen automatically:
 
