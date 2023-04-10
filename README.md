@@ -18,3 +18,5 @@ The [`.gitpod.yml`](./.gitpod.yml) file, which configures the environment, is au
      2. [Mongo-express](https://hub.docker.com/_/mongo-express) :It helps to interact database GUI through web browser. It is running on port number: **8081** 
 4. Containers are created for both images on specific ports to enable users to interact with the data.
 5. Once all these tasks are completed, the you can perform all data operations using the Java program.
+
+Overall, this automated process ensures that the environment is properly configured for the Java project, including necessary tools and dependencies, network setup, and database setup. This allows developers to quickly start working on their project without worrying about manual setup or configuration.
